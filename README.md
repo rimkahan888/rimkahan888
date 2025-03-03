@@ -10,7 +10,7 @@
 
 ## 🧠 About Me
 
-🔥 Hey, I'm Johan, a **data engineer**, **data analyst**, **coding**, automation enthusiast, and problem-solver. I thrive on optimizing workflows, architecting scalable data pipelines, and enabling businesses to make **data-driven decisions**. Whether it’s **orchestrating ETL/ELT**, **optimizing cloud infrastructure**, or **building analytics dashboards**, I bring the same relentless energy to every field I dive into.
+🔥 Hey, I'm [Your Name], a **data engineer**, automation enthusiast, and problem-solver. I thrive on optimizing workflows, architecting scalable data pipelines, and enabling businesses to make **data-driven decisions**. Whether it’s **orchestrating ETL/ELT**, **optimizing cloud infrastructure**, or **building analytics dashboards**, I bring the same relentless energy to every field I dive into.
 
 ### 🏆 My philosophy?
 > "Data is only as valuable as the insights it fuels. Efficiency is the name of the game."
@@ -24,25 +24,31 @@ To push the boundaries of **data engineering, cloud computing, and analytics**, 
 
 ### 🔥 Programming Languages
 
-![Python](https://img.shields.io/badge/Python-blue?style=for-the-badge&logo=python)  
-![SQL](https://img.shields.io/badge/SQL-orange?style=for-the-badge&logo=postgresql)  
-![Java](https://img.shields.io/badge/Java-red?style=for-the-badge&logo=java)  
-![Shell Scripting](https://img.shields.io/badge/Shell_Scripting-black?style=for-the-badge&logo=gnu-bash)
+<p align="left">
+  <img src="https://img.shields.io/badge/Python-blue?style=for-the-badge&logo=python">
+  <img src="https://img.shields.io/badge/SQL-orange?style=for-the-badge&logo=postgresql">
+  <img src="https://img.shields.io/badge/Java-red?style=for-the-badge&logo=java">
+  <img src="https://img.shields.io/badge/Shell_Scripting-black?style=for-the-badge&logo=gnu-bash">
+</p>
 
 ### 🌐 Data Engineering Tools
 
-![Snowflake](https://img.shields.io/badge/Snowflake-blue?style=for-the-badge&logo=snowflake)  
-![dbt](https://img.shields.io/badge/dbt-orange?style=for-the-badge&logo=dbt)  
-![Databricks](https://img.shields.io/badge/Databricks-red?style=for-the-badge&logo=databricks)  
-![BigQuery](https://img.shields.io/badge/BigQuery-blue?style=for-the-badge&logo=google-cloud)  
-![Airflow](https://img.shields.io/badge/Airflow-blue?style=for-the-badge&logo=apache-airflow)  
-![Dagster](https://img.shields.io/badge/Dagster-purple?style=for-the-badge&logo=dagster)
+<p align="left">
+  <img src="https://img.shields.io/badge/Snowflake-blue?style=for-the-badge&logo=snowflake">
+  <img src="https://img.shields.io/badge/dbt-orange?style=for-the-badge&logo=dbt">
+  <img src="https://img.shields.io/badge/Databricks-red?style=for-the-badge&logo=databricks">
+  <img src="https://img.shields.io/badge/BigQuery-blue?style=for-the-badge&logo=google-cloud">
+  <img src="https://img.shields.io/badge/Airflow-blue?style=for-the-badge&logo=apache-airflow">
+  <img src="https://img.shields.io/badge/Dagster-purple?style=for-the-badge&logo=dagster">
+</p>
 
 ### 📊 Business Intelligence & Visualization
 
-![Power BI](https://img.shields.io/badge/Power_BI-yellow?style=for-the-badge&logo=powerbi)  
-![Tableau](https://img.shields.io/badge/Tableau-blue?style=for-the-badge&logo=tableau)  
-![Looker](https://img.shields.io/badge/Looker-blue?style=for-the-badge&logo=looker)
+<p align="left">
+  <img src="https://img.shields.io/badge/Power_BI-yellow?style=for-the-badge&logo=powerbi">
+  <img src="https://img.shields.io/badge/Tableau-blue?style=for-the-badge&logo=tableau">
+  <img src="https://img.shields.io/badge/Looker-blue?style=for-the-badge&logo=looker">
+</p>
 
 ### 🛡️ Data Engineering & Analytics
 
@@ -55,9 +61,11 @@ To push the boundaries of **data engineering, cloud computing, and analytics**, 
 
 ### ☁️ Cloud Platforms
 
-![AWS](https://img.shields.io/badge/AWS-orange?style=for-the-badge&logo=amazon-aws)  
-![Google Cloud](https://img.shields.io/badge/Google_Cloud-blue?style=for-the-badge&logo=google-cloud)  
-![Azure](https://img.shields.io/badge/Azure-blue?style=for-the-badge&logo=microsoft-azure)
+<p align="left">
+  <img src="https://img.shields.io/badge/AWS-orange?style=for-the-badge&logo=amazon-aws">
+  <img src="https://img.shields.io/badge/Google_Cloud-blue?style=for-the-badge&logo=google-cloud">
+  <img src="https://img.shields.io/badge/Azure-blue?style=for-the-badge&logo=microsoft-azure">
+</p>
 
 ---
 
@@ -76,19 +84,3 @@ Check out my repositories here: **[My GitHub Repos](https://github.com/yourgithu
 ---
 
 🎯 **Always exploring new ways to make data work smarter, faster, and more efficiently!** 🚀
-## Hi there 👋
-
-<!--
-**rimkahan888/rimkahan888** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
