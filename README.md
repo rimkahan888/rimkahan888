@@ -10,7 +10,7 @@
 
 ## 🧠 About Me
 
-🔥 Hey, I'm [Your Name], a **data engineer**, automation enthusiast, and problem-solver. I thrive on optimizing workflows, architecting scalable data pipelines, and enabling businesses to make **data-driven decisions**. Whether it’s **orchestrating ETL/ELT**, **optimizing cloud infrastructure**, or **building analytics dashboards**, I bring the same relentless energy to every field I dive into.
+🔥 Hey, I'm Johan, a **data engineer**, automation enthusiast, and problem-solver. I thrive on optimizing workflows, architecting scalable data pipelines, and enabling businesses to make **data-driven decisions**. Whether it’s **orchestrating ETL/ELT**, **optimizing cloud infrastructure**, or **building analytics dashboards**, I bring the same relentless energy to every field I dive into.
 
 ### 🏆 My philosophy?
 > "Data is only as valuable as the insights it fuels. Efficiency is the name of the game."
