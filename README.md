@@ -29,7 +29,13 @@ To push the boundaries of **data engineering, cloud computing, and analytics**, 
   <img src="https://img.shields.io/badge/SQL-orange?style=for-the-badge&logo=postgresql">
   <img src="https://img.shields.io/badge/Java-red?style=for-the-badge&logo=java">
   <img src="https://img.shields.io/badge/Shell_Scripting-black?style=for-the-badge&logo=gnu-bash">
+  <img src="https://img.shields.io/badge/HTML-orange?style=for-the-badge&logo=html5">
+  <img src="https://img.shields.io/badge/CSS-blue?style=for-the-badge&logo=css3">
+  <img src="https://img.shields.io/badge/JavaScript-yellow?style=for-the-badge&logo=javascript">
+  <img src="https://img.shields.io/badge/React-blue?style=for-the-badge&logo=react">
+  <img src="https://img.shields.io/badge/Node.js-green?style=for-the-badge&logo=node.js">
 </p>
+
 
 ### 🌐 Data Engineering Tools
 
