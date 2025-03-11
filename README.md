@@ -78,7 +78,7 @@ To push the boundaries of **data engineering, cloud computing, and analytics**, 
 ## 📂 Projects & Repositories
 
 I build projects across multiple domains, including **data engineering, cloud computing, and analytics**.
-Check out my repositories here: **[My GitHub Repos](https://github.com/yourgithub)](https://github.com/rimkahan888?tab=repositories)**
+Check out my repositories here: **[My GitHub Repos](https://github.com/yourgithub)][(https://github.com/rimkahan888?tab=repositories)]**
 
 ### 🔥 Highlighted Projects:
 
