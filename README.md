@@ -43,11 +43,6 @@ Let’s automate the boring stuff and engineer the future.
 
 ## 📂 Projects & Repositories
 
-I build projects across multiple domains, including **data engineering, cloud computing, and analytics**.
-Check out my repositories here: **[My GitHub Repos](https://github.com/rimkahan888?tab=repositories)]**
-
-### 🔥 Highlighted Projects:
-
 - **Automated-Snowflake-Pipeline** – A fully automated **ETL pipeline** using Airflow, Snowflake, and dbt.
 - **Real-time-Dashboarding** – A project integrating **BigQuery, Looker, and Power BI** to generate live reports.
 - **Batch-vs-Streaming-Data-Processing** – A comparative analysis of **batch vs streaming data ingestion**.
