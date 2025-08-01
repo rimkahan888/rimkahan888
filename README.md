@@ -40,7 +40,6 @@ Let’s automate the boring stuff and engineer the future.
   <img src="https://img.shields.io/badge/Snowflake-29B5E8?style=for-the-badge&logo=snowflake">
 </p>
 
----
 
 ## 📂 Projects & Repositories
 
@@ -54,6 +53,6 @@ Check out my repositories here: **[My GitHub Repos](https://github.com/rimkahan8
 - **Batch-vs-Streaming-Data-Processing** – A comparative analysis of **batch vs streaming data ingestion**.
 - **Data-Lakehouse-Architecture** – Implementing a **modern data lakehouse** using Databricks and Delta Lake.
 
----
 
-🎯 **Always exploring new ways to make data work smarter, faster, and more efficiently!** 🚀
+
+
