@@ -9,7 +9,6 @@ Hey, I'm Johan, a software, data & automation enthusiast with 10+ years of exper
 
 Whether it’s building mobile apps, orchestrating ETL/ELT, designing analytics dashboards, or optimizing cloud infrastructure, I bridge the gap between raw data and actionable insights—delivering solutions that are as scalable as they are impactful.
 
-Let’s automate the boring stuff and engineer the future.
    
 ### 🛠️ Tech Stack & Expertise
 🔥 Programming Languages
