@@ -22,14 +22,7 @@ Whether it’s building mobile apps, orchestrating ETL/ELT, designing analytics 
 - Orchestration & Modeling: Scheduling with Airflow/Dagster & transforming data with dbt
 - BI & Visualization: Developing dashboards in Power BI, Tableau & Looker
 
-### ☁️ Cloud Platforms & Data Warehousing
 
-<p align="left">
-  <img src="https://img.shields.io/badge/AWS-orange?style=for-the-badge&logo=amazon-aws">
-  <img src="https://img.shields.io/badge/Google_Cloud-blue?style=for-the-badge&logo=google-cloud">
-  <img src="https://img.shields.io/badge/Azure-blue?style=for-the-badge&logo=microsoft-azure">
-  <img src="https://img.shields.io/badge/Snowflake-29B5E8?style=for-the-badge&logo=snowflake">
-</p>
 
 
 ## 📂 Projects & Repositories
