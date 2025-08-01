@@ -23,12 +23,10 @@ Whether it’s building mobile apps, orchestrating ETL/ELT, designing analytics 
 
 ###  🛡️   Data Engineering & Analytics
 
-- **ETL/ELT Pipelines** – Automating ingestion, transformation, and loading of data.
-- **Data Warehousing** – Architecting solutions in Snowflake, BigQuery, and Databricks.
-- **Orchestration** – Managing workflows with Apache Airflow and Dagster.
-- **Data Modeling** – Implementing efficient schemas with dbt and SQL.
-- **Streaming & Batch Processing** – Handling real-time and scheduled data workflows.
-- **Dashboarding & Reporting** – Creating business intelligence reports in Power BI, Tableau, and Looker.
+- ETL/ELT & Data Pipelines: Building automated data workflows (batch/streaming)
+- Cloud Data Warehousing: Architecting solutions in Snowflake, BigQuery & Databricks
+- Orchestration & Modeling: Scheduling with Airflow/Dagster & transforming data with dbt
+- BI & Visualization: Developing dashboards in Power BI, Tableau & Looker
 
 ### ☁️ Cloud Platforms & Data Warehousing
 
