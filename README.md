@@ -5,7 +5,7 @@
    
 ## 🧠 About Me
 
-🔥 Hey, I'm Johan, a software, data & automation enthusiast with 10+ years of expertise as a System Engineer, Data Analyst, and Project Manager. I thrive on optimizing workflows, architecting scalable data pipelines, and enabling businesses to make data-driven decisions.
+Hey, I'm Johan, a software, data & automation enthusiast with 10+ years of expertise as a System Engineer, Data Analyst, and Project Manager. I thrive on optimizing workflows, architecting scalable data pipelines, and enabling businesses to make data-driven decisions.
 
 Whether it’s building mobile apps, orchestrating ETL/ELT, designing analytics dashboards, or optimizing cloud infrastructure, I bridge the gap between raw data and actionable insights—delivering solutions that are as scalable as they are impactful.
 
