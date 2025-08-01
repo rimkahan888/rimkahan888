@@ -23,7 +23,7 @@ Let’s automate the boring stuff and engineer the future.
 <p align="left"> <img src="https://img.shields.io/badge/Snowflake-blue?style=for-the-badge&logo=snowflake"> <img src="https://img.shields.io/badge/dbt-orange?style=for-the-badge&logo=dbt"> <img src="https://img.shields.io/badge/Databricks-red?style=for-the-badge&logo=databricks"> <img src="https://img.shields.io/badge/BigQuery-blue?style=for-the-badge&logo=google-cloud"> <img src="https://img.shields.io/badge/Airflow-blue?style=for-the-badge&logo=apache-airflow"> <img src="https://img.shields.io/badge/Dagster-purple?style=for-the-badge&logo=dagster"> <img src="https://img.shields.io/badge/ADF-FF9E0F?style=for-the-badge&logo=azure-data-factory"> <img src="https://img.shields.io/badge/Kafka-231F20?style=for-the-badge&logo=apache-kafka"> <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql"> </p>
 📊 Business Intelligence & Visualization
 <p align="left"> <img src="https://img.shields.io/badge/Power_BI-yellow?style=for-the-badge&logo=powerbi"> <img src="https://img.shields.io/badge/Tableau-blue?style=for-the-badge&logo=tableau"> <img src="https://img.shields.io/badge/Looker-blue?style=for-the-badge&logo=looker"> <img src="https://img.shields.io/badge/Fabric-0078D4?style=for-the-badge&logo=microsoft"> </p>
-### 🛡️ Data Engineering & Analytics
+🛡️ Data Engineering & Analytics
 
 - **ETL/ELT Pipelines** – Automating ingestion, transformation, and loading of data.
 - **Data Warehousing** – Architecting solutions in Snowflake, BigQuery, and Databricks.
