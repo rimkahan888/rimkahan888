@@ -25,7 +25,7 @@ Let’s automate the boring stuff and engineer the future.
 <p align="left"> <img src="https://img.shields.io/badge/Power_BI-yellow?style=for-the-badge&logo=powerbi"> <img src="https://img.shields.io/badge/Tableau-blue?style=for-the-badge&logo=tableau"> <img src="https://img.shields.io/badge/Looker-blue?style=for-the-badge&logo=looker"> <img src="https://img.shields.io/badge/Fabric-0078D4?style=for-the-badge&logo=microsoft"> </p>
 
 
-🛡️ ###  Data Engineering & Analytics
+###  🛡️   Data Engineering & Analytics
 
 - **ETL/ELT Pipelines** – Automating ingestion, transformation, and loading of data.
 - **Data Warehousing** – Architecting solutions in Snowflake, BigQuery, and Databricks.
