@@ -11,7 +11,6 @@ Whether it’s building mobile apps, orchestrating ETL/ELT, designing analytics 
 
 Let’s automate the boring stuff and engineer the future.
 
-#
 
    
 ### 🛠️ Tech Stack & Expertise
