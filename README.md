@@ -2,11 +2,6 @@
 
 ---
 
-### 🏷️ Tags
-
-`CODING` `DATA ENGINEERING` `SCALABLE` `PIPELINES` `AUTOMATION` `INSIGHTS` `OPTIMIZED`
-
----
    
 ## 🧠 About Me
 
