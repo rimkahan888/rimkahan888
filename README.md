@@ -68,3 +68,14 @@ Whether it’s building mobile apps, orchestrating ETL/ELT, design analytics das
 </p>
 
 
+![Data Dashboard](https://raw.githubusercontent.com/rimkahan888/probable-spork/main/dashboard.png)
+
+
+
+<img src="https://raw.githubusercontent.com/rimkahan888/probable-spork/main/dashboard.png" width="600" alt="Data Dashboard Preview">
+
+
+## 🖥️ Featured Dashboard Project
+<img src="https://raw.githubusercontent.com/rimkahan888/probable-spork/main/dashboard.png" width="800" alt="Interactive Data Dashboard">
+
+**Technologies Used:** Power BI, Snowflake, Python
