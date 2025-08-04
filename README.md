@@ -36,36 +36,7 @@ test
 - **Batch-vs-Streaming-Data-Processing** – A comparative analysis or **batch vs streaming data**.
 - **Data-Lakehouse-Architecture** – Implementing a **modern data lakehouse** using Databricks and Delta Lake.
 
-test
-test
-test
-test
-test
-test
-test
-test
-tset
-test
-test
-test
-test
-test
-test
-test
-test
-test
-test
-test
-test
 
-test
-
-    test
-	
-
-
-
-test
 
 
 
