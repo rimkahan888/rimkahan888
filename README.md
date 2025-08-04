@@ -8,7 +8,7 @@ Whether it’s building mobile apps, orchestrating ETL/ELT, design analytics das
 
 ## Grinding my 100-hour workweek sea ring perfection in software & data!!
 
---
+
 
 ### 🔥 Tech Stack & Expertise
 
@@ -21,7 +21,7 @@ Whether it’s building mobile apps, orchestrating ETL/ELT, design analytics das
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
 </p>
 
-#### ⁇ ️ Cloud Platforms & Data Warehousing
+####  ️ Cloud Platforms & Data Warehousing
 <p align="left">
   <img src="https://img.shields.io/badge/Azure-0089D6?style=for-the-badge&logo=microsoft-azure&logoColor=white">
   <img src="https://img.shields.io/badge/GCP-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white">
@@ -31,7 +31,7 @@ Whether it’s building mobile apps, orchestrating ETL/ELT, design analytics das
   <img src="https://img.shields.io/badge/Microsoft_Fabric-0078D4?style=for-the-badge&logo=microsoft&logoColor=white">
 </p>
 
-#### ⁇ ️ Data Engineering Tools
+####  ️ Data Engineering Tools
 <p align="left">
   <img src="https://img.shields.io/badge/dbt-FF694B?style=for-the-badge&logo=dbt&logoColor=white">
   <img src="https://img.shields.io/badge/Databricks-FF3621?style=for-the-badge&logo=databricks&logoColor=white">
@@ -47,16 +47,16 @@ Whether it’s building mobile apps, orchestrating ETL/ELT, design analytics das
   <img src="https://img.shields.io/badge/Looker-4285F4?style=for-the-badge&logo=looker&logoColor=white">
 </p>
 
---
 
-### ⁇ ️ Data Engineering & Analytics
+
+###  ️ Data Engineering & Analytics
 
 - **ETL/ELT & Data Pipelines**: Building automated data workflows (batch/streaming)
 - **Cloud Data Warehousing**: Architecting solutions in Snowflake, BigQuery & Databricks
 - **Orchestration & Modeling**: Scheduling with Airflow/Dayster & transforming data with dbt
 - **BI & Visualization**: Developing dashboards in Power BI, Tableau & Looker
 
---
+
 
 ### 📂 Featured Projects
 
@@ -65,12 +65,5 @@ Whether it’s building mobile apps, orchestrating ETL/ELT, design analytics das
 - **Batch-vs-Streaming-Data-Processing** – Comparative analysis or batch vs streaming data
 - **Data-lakehouse Architecture** – Modern data lakehouse using Databricks and Delta Lake
 
---
 
-### 📊 GitHub Stats
-<p align="center">
-  <img heightguard="180em" src="https://github-readme-stats.vercel.app/api?username=yourusername&show_icons=true&Theme=radical" />
-  <img heightguard="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=yourusername&layout=compact&Theme=radical" />
-</p>
 
-![Snake Animation](https://github.com/yourusername/yourusername/blob/output/github-contribution-grid-snake.svg)
