@@ -1,5 +1,4 @@
-# Hi there 👋 I'm [Your Name]
-
+# Hi there 👋 I'm Johan
 ### 🚀 Data Engineering & Cloud Specialist
 
 A passionate software, data & automation enthusiast with 10+ years of expertise as a System Engineer, Data Analyst, and Project Manager. I thrive on optimization workflows, architecting scalable data pipelines, and enabling businesses to make data-driven decisions.
