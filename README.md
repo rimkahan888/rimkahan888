@@ -4,8 +4,6 @@ Whether it’s building mobile apps, orchestrating ETL/ELT, design analytics das
 ## Grinding my 100 hour workweek seaking perfection in software & data!!! ##
 
 
-test
-
 
    
 ### ?? ️ Tech Stack & Expertise
