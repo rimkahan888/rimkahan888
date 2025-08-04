@@ -62,5 +62,9 @@ Whether it’s building mobile apps, orchestrating ETL/ELT, design analytics das
 - **Batch-vs-Streaming-Data-Processing** – Comparative analysis or batch vs streaming data
 - **Data-lakehouse Architecture** – Modern data lakehouse using Databricks and Delta Lake
 
+## 🔧 Technologies & Tools
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=js,ts,react,nodejs,py,docker,aws,git" alt="Tech stack icons" />
+</p>
 
 
