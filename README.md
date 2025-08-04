@@ -35,7 +35,6 @@ Whether it’s building mobile apps, orchestrating ETL/ELT, design analytics das
 <p align="left">
   <img src="https://img.shields.io/badge/dbt-FF694B?style=for-the-badge&logo=dbt&logoColor=white">
   <img src="https://img.shields.io/badge/Databricks-FF3621?style=for-the-badge&logo=databricks&logoColor=white">
-  <img src="https://img.shields.io/badge/Airflow-017CEE?style=for-the-badge&logo=apache airflow&logoColor=white">
   <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white">
 </p>
 
