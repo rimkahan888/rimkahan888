@@ -5,7 +5,7 @@ A passionate software, data & automation enthusiast with 10+ years of expertise 
 
 Whether it’s building mobile apps, orchestrating ETL/ELT, design analytics dashboards, or optimization cloud infrastructure, I bridge the gap between raw data and actionable insights that are as scalable as they are impactful.
 
-## Grinding my 100-hour workweek sea ring perfection in software & data!!
+## Grinding my 100-hour workweek pursuing perfection in software & data!!
 
 
 
