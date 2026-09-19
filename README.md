@@ -8,7 +8,7 @@ I came to software through data and systems work, which means I'm comfortable on
 
 ## Building in public: a microservices replica, from scratch
 
-Most of my energy right now goes into **personal projects**, and the direction is deliberate: I want to build a **microservices replica** — a working reference system I can break, instrument, and rebuild — rather than another tutorial-shaped repo.
+Most of my energy, in my free time, right now goes into **personal projects**, and the direction is deliberate: I want to build a **microservices replica** — a working reference system I can break, instrument, and rebuild — rather than another tutorial-shaped repo.
 
 The plan, roughly in order:
 - **Decompose properly** — service boundaries defined by domain, not by convenience
