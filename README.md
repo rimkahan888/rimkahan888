@@ -1,6 +1,6 @@
 # Hi there 👋 I'm Johan
 
-### 🚀 Software Engineer · Backend · Cloud & Infra · Passion for Data Engineering & Design
+### 🚀 Software Engineer · FullStack · Cloud & Infra · Passion for Data Engineering & Design
 
 Software engineer based in New Zealand, focused on **backend systems, cloud infrastructure, and automation**. I like the unglamorous parts of the job: services that stay up, pipelines that don't need babysitting, and infra that's reproducible instead of hand-built.
 
