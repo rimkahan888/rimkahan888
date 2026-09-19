@@ -2,6 +2,12 @@
 
 ### 🚀 Software Engineer · FullStack · Cloud & Infra · Passion for Data Engineering & Design
 
+<p align="left">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=26&pause=1000&color=F7B32B&width=520&lines=ALWAYS+GRINDING.;Always+building.;Always+shipping." alt="Always grinding" />
+</p>
+
+**ALWAYS GRINDING.** Relentlessly.
+
 Software engineer based in New Zealand, focused on **backend systems, cloud infrastructure, and automation**. I like the unglamorous parts of the job: services that stay up, pipelines that don't need babysitting, and infra that's reproducible instead of hand-built.
 
 I came to software through data and systems work, which means I'm comfortable on both sides of the API boundary — schema design and query performance on one end, service architecture and deployment on the other.
@@ -79,6 +85,14 @@ I'm documenting the process as I go. Some repos are finished, some are scaffoldi
 
 ## 📫 Let's connect
 
-ALWAYS GRINDING. Always happy to talk about backend architecture, infrastructure, or what I'm building next.
+Always happy to talk about backend architecture, infrastructure, or what I'm building next.
+
+<p align="left">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=20&pause=1000&color=F7B32B&width=420&lines=ALWAYS+GRINDING." alt="Always grinding" />
+</p>
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/YOUR-HANDLE)
+
+---
+
+<p align="center"><strong>⚡ ALWAYS GRINDING ⚡</strong></p>
