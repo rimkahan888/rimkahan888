@@ -79,6 +79,6 @@ I'm documenting the process as I go. Some repos are finished, some are scaffoldi
 
 ## 📫 Let's connect
 
-Always happy to talk about backend architecture, infrastructure, or what I'm building next.
+Always Grinding. Always happy to talk about backend architecture, infrastructure, or what I'm building next.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/YOUR-HANDLE)
