@@ -73,11 +73,7 @@ I'm documenting the process as I go. Some repos are finished, some are scaffoldi
 
 ### Docs that get an internal CRM from pain → production
 
-A product-docs workspace I built so an internal CRM can move from spreadsheet pain to a shippable system without losing the plot. One canvas holds the whole path — **Problem → Discovery → Vision → PRD → Tech → Tickets → Ship** — while the right rail is the actual document (problem statement, opportunity brief, and so on).
 
-The PRD sits in the middle of the map (roles, entities, integrations, reports, privacy). Downstream boards turn that into architecture, tracer-bullet tickets, and a build → ship → run pack. The sample run is Northwind Commerce: one system of record for Account, Contact, Opportunity, and Activity.
-
-*Private / in progress — repo link when I publish it.*
 
 <p align="center">
   <img src="./johan-app.png" alt="Internal CRM docs workspace: seven-step path from problem to ship, with PRD map and problem-statement document" width="100%" />
