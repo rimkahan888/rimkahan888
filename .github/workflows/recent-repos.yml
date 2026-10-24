@@ -1,0 +1,43 @@
+# Rewrites the README block between RECENT_REPOS:START and RECENT_REPOS:END.
+# Lists the latest public, non-fork, non-empty repositories. Pushes a commit
+# only when that list changes. GITHUB_TOKEN pushes do not retrigger this workflow.
+
+name: Update recent repositories
+
+on:
+  schedule:
+    - cron: "30 2 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-recent-repos
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 5
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Rewrite the recent repositories block
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+        run: python3 .github/scripts/update-recent-repos.py
+
+      - name: Commit and push when the list changes
+        run: |
+          if git diff --quiet -- README.md; then
+            echo "Recent repositories list is unchanged."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git commit -m "Update recently updated repositories"
+          git push

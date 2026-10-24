@@ -1,4 +1,18 @@
+<!--
+To add a featured project, insert a row in the Featured projects table:
+
+| [name](https://github.com/rimkahan888/name) | One sentence on what it is. |
+
+Keep that table short. Recently updated is filled in by .github/workflows/recent-repos.yml.
+-->
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=F7B32B&height=140&section=header&text=ALWAYS%20GRINDING.&fontSize=38&fontColor=f0f6fc&fontAlignY=36&desc=building%20%C2%B7%20shipping%20%C2%B7%20New%20Zealand&descAlignY=68&descSize=16" alt="ALWAYS GRINDING. building · shipping · New Zealand" width="100%" />
+
 # Johan
+
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&pause=1000&color=F7B32B&center=true&vCenter=true&width=620&height=40&lines=ALWAYS+GRINDING.;Always+building.;Always+shipping." alt="Always grinding" />
+</p>
 
 **Senior Software Engineer** · about 6 years · Auckland, New Zealand
 
@@ -20,7 +34,22 @@ I came to software through data and systems work, so I'm comfortable on both sid
 | [snowflake-mcq-dashboard](https://github.com/rimkahan888/snowflake-mcq-dashboard) | Next.js study app for Snowflake exam questions, with search, favorites, and a light/dark theme. |
 | [Language_Tool](https://github.com/rimkahan888/Language_Tool) | Browser app for French vocabulary: flashcards, quizzes, and example sentences. |
 
-Practice notes and exercises are public too, including [daily_python](https://github.com/rimkahan888/daily_python) and [daily_data_engineer](https://github.com/rimkahan888/daily_data_engineer).
+## Recently updated
+
+Newest public repositories, excluding forks and empty repos.
+
+<!-- RECENT_REPOS:START -->
+| Repository | Description | Language |
+| --- | --- | --- |
+| [pokemon-api-dotnet](https://github.com/rimkahan888/pokemon-api-dotnet) | No description | C# |
+| [skills-communicate-using-markdown](https://github.com/rimkahan888/skills-communicate-using-markdown) | My clone repository | — |
+| [data_engineering_Sept_2025](https://github.com/rimkahan888/data_engineering_Sept_2025) | No description | Python |
+| [test3](https://github.com/rimkahan888/test3) | No description | Python |
+| [youtube-transcript-tool](https://github.com/rimkahan888/youtube-transcript-tool) | No description | Python |
+| [august1](https://github.com/rimkahan888/august1) | No description | HTML |
+| [port](https://github.com/rimkahan888/port) | No description | — |
+| [pong](https://github.com/rimkahan888/pong) | No description | JavaScript |
+<!-- RECENT_REPOS:END -->
 
 ## Tech stack
 
@@ -51,4 +80,12 @@ Practice notes and exercises are public too, including [daily_python](https://gi
 
 <p align="center">
   <sub>File size drives the language chart, so practice notebooks outweigh the application repos.</sub>
+</p>
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/rimkahan888/rimkahan888/output/github-contribution-grid-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/rimkahan888/rimkahan888/output/github-contribution-grid-snake.svg" />
+    <img alt="GitHub contribution snake" src="https://raw.githubusercontent.com/rimkahan888/rimkahan888/output/github-contribution-grid-snake-dark.svg" width="100%" />
+  </picture>
 </p>
