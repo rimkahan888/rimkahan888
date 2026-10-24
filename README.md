@@ -4,7 +4,7 @@
 
 Open to new opportunities.
 
-**What I work on:** Python and TypeScript web apps, and data pipelines packaged with Docker. Application code is mostly Laravel and Next.js. Pipeline code is Airflow, dbt, and SQL, with some AWS (S3) and Snowflake.
+**What I work on:** .NET services with Vue and TypeScript UIs, Laravel and Next.js apps, and Python data pipelines packaged with Docker (Airflow, dbt, SQL, some AWS and Snowflake).
 
 I came to software through data and systems work, so I'm comfortable on both sides of an API: schema and queries at one end, the service and its deployment at the other. I like the unglamorous parts: services that stay up, pipelines that don't need babysitting, and infrastructure you can stand up again from the repo.
 
@@ -12,6 +12,7 @@ I came to software through data and systems work, so I'm comfortable on both sid
 
 | Project | Summary |
 | --- | --- |
+| [pokemon-api-dotnet](https://github.com/rimkahan888/pokemon-api-dotnet) | .NET Web API that wraps PokéAPI, with a Vue 3 and TypeScript explorer for the catalog, Pokémon details, and a team builder with type coverage. Tests, GitHub Actions CI (format check and backend coverage), Docker Compose, OpenAPI, RFC 9457 problem details, health checks, and security headers. |
 | [job-board-flask](https://github.com/rimkahan888/job-board-flask) | Job board with a Flask and SQLite API and a Next.js UI (Tailwind, shadcn/ui). |
 | [personal_finance](https://github.com/rimkahan888/personal_finance) | Laravel 12 app for income, expenses, and a balance dashboard, with Breeze auth and SQLite. |
 | [data_engineering_Sept_2025](https://github.com/rimkahan888/data_engineering_Sept_2025) | Airflow pipeline that stages scraped data in MongoDB and loads ClickHouse, with Docker Compose and dbt. |
@@ -24,12 +25,17 @@ Practice notes and exercises are public too, including [daily_python](https://gi
 ## Tech stack
 
 <p>
-  <img alt="Python" src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white" />
+  <img alt="C#" src="https://img.shields.io/badge/C%23-239120?style=flat&logo=csharp&logoColor=white" />
+  <img alt=".NET" src="https://img.shields.io/badge/.NET-512BD4?style=flat&logo=dotnet&logoColor=white" />
+  <img alt="Vue" src="https://img.shields.io/badge/Vue-4FC08D?style=flat&logo=vuedotjs&logoColor=white" />
   <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white" />
+  <img alt="Tailwind" src="https://img.shields.io/badge/Tailwind-06B6D4?style=flat&logo=tailwindcss&logoColor=white" />
+  <img alt="Docker" src="https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white" />
+  <img alt="GitHub Actions" src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat&logo=githubactions&logoColor=white" />
+  <img alt="Python" src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white" />
   <img alt="PHP" src="https://img.shields.io/badge/PHP-777BB4?style=flat&logo=php&logoColor=white" />
   <img alt="Laravel" src="https://img.shields.io/badge/Laravel-FF2D20?style=flat&logo=laravel&logoColor=white" />
   <img alt="Next.js" src="https://img.shields.io/badge/Next.js-3d444d?style=flat&logo=nextdotjs&logoColor=white" />
-  <img alt="Docker" src="https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white" />
   <img alt="SQLite" src="https://img.shields.io/badge/SQLite-003B57?style=flat&logo=sqlite&logoColor=white" />
   <img alt="Airflow" src="https://img.shields.io/badge/Airflow-017CEE?style=flat&logo=apacheairflow&logoColor=white" />
   <img alt="dbt" src="https://img.shields.io/badge/dbt-FF694B?style=flat&logo=dbt&logoColor=white" />
