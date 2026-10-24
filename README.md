@@ -14,7 +14,7 @@ Keep that table short. Recently updated is filled in by .github/workflows/recent
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&pause=1000&color=F7B32B&center=true&vCenter=true&width=620&height=40&lines=ALWAYS+GRINDING.;Always+building.;Always+shipping." alt="Always grinding" />
 </p>
 
-**Senior Software Engineer** · about 6 years · Auckland, New Zealand
+**Software Engineer** · 2 years' working experience · Auckland, New Zealand
 
 Open to new opportunities.
 
