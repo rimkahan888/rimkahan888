@@ -41,14 +41,14 @@ Newest public repositories, excluding forks and empty repos.
 <!-- RECENT_REPOS:START -->
 | Repository | Description | Language |
 | --- | --- | --- |
-| [pokemon-api-dotnet](https://github.com/rimkahan888/pokemon-api-dotnet) | No description | C# |
+| [SDLC](https://github.com/rimkahan888/SDLC) | No description | C# |
+| [terraform004](https://github.com/rimkahan888/terraform004) | No description | HTML |
+| [pokemon-api-dotnet](https://github.com/rimkahan888/pokemon-api-dotnet) | No description | TypeScript |
+| [rat-race-escape](https://github.com/rimkahan888/rat-race-escape) | No description | C# |
 | [skills-communicate-using-markdown](https://github.com/rimkahan888/skills-communicate-using-markdown) | My clone repository | — |
 | [data_engineering_Sept_2025](https://github.com/rimkahan888/data_engineering_Sept_2025) | No description | Python |
 | [test3](https://github.com/rimkahan888/test3) | No description | Python |
 | [youtube-transcript-tool](https://github.com/rimkahan888/youtube-transcript-tool) | No description | Python |
-| [august1](https://github.com/rimkahan888/august1) | No description | HTML |
-| [port](https://github.com/rimkahan888/port) | No description | — |
-| [pong](https://github.com/rimkahan888/pong) | No description | JavaScript |
 <!-- RECENT_REPOS:END -->
 
 ## Tech stack
