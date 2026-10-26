@@ -41,14 +41,14 @@ Newest public repositories, excluding forks and empty repos.
 <!-- RECENT_REPOS:START -->
 | Repository | Description | Language |
 | --- | --- | --- |
-| [SDLC](https://github.com/rimkahan888/SDLC) | No description | C# |
+| [mother-of-all-prompt](https://github.com/rimkahan888/mother-of-all-prompt) | No description | JavaScript |
+| [rimkahan888.github.io](https://github.com/rimkahan888/rimkahan888.github.io) | Johan Karjadi — portfolio | JavaScript |
+| [skills](https://github.com/rimkahan888/skills) | Johan's design and dev skill references | HTML |
+| [rat-race-escape](https://github.com/rimkahan888/rat-race-escape) | No description | C# |
+| [SDLC](https://github.com/rimkahan888/SDLC) | No description | TypeScript |
 | [terraform004](https://github.com/rimkahan888/terraform004) | No description | HTML |
 | [pokemon-api-dotnet](https://github.com/rimkahan888/pokemon-api-dotnet) | No description | TypeScript |
-| [rat-race-escape](https://github.com/rimkahan888/rat-race-escape) | No description | C# |
 | [skills-communicate-using-markdown](https://github.com/rimkahan888/skills-communicate-using-markdown) | My clone repository | — |
-| [data_engineering_Sept_2025](https://github.com/rimkahan888/data_engineering_Sept_2025) | No description | Python |
-| [test3](https://github.com/rimkahan888/test3) | No description | Python |
-| [youtube-transcript-tool](https://github.com/rimkahan888/youtube-transcript-tool) | No description | Python |
 <!-- RECENT_REPOS:END -->
 
 ## Tech stack
