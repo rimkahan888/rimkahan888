@@ -6,7 +6,7 @@ The Projects list below is rebuilt daily by .github/workflows/recent-repos.yml.
 
 <img src="./.github/assets/banner-neon.svg" alt="ALWAYS GRINDING. building · shipping · New Zealand" width="100%" />
 
-<img src="./.github/profile.png" alt="Johan, Software Engineer, 2 years' software experience, 5 years at the world's best airport, Auckland, open to new opportunities. Works on .NET, Vue, TypeScript, Laravel, Next.js and Python data pipelines." width="100%" />
+<img src="./profile.png" alt="Johan, Software Engineer, 2 years' software experience, 5 years at the world's best airport, Auckland, open to new opportunities. Works on .NET, Vue, TypeScript, Laravel, Next.js and Python data pipelines." width="100%" />
 
 <details>
 <summary><b>Project links</b></summary>
