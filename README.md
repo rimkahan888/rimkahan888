@@ -1,9 +1,7 @@
 <!--
-To add a featured project, insert a row in the Featured projects table:
-
-| [name](https://github.com/rimkahan888/name) | One sentence on what it is. |
-
-Keep that table short. Recently updated is filled in by .github/workflows/recent-repos.yml.
+Featured projects: edit .github/featured-projects.json (repo + one-sentence summary).
+The Projects table is rebuilt daily by .github/workflows/recent-repos.yml:
+featured first (⭐), then the latest public repos.
 -->
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=F7B32B&height=140&section=header&text=ALWAYS%20GRINDING.&fontSize=38&fontColor=f0f6fc&fontAlignY=36&desc=building%20%C2%B7%20shipping%20%C2%B7%20New%20Zealand&descAlignY=68&descSize=16" alt="ALWAYS GRINDING. building · shipping · New Zealand" width="100%" />
@@ -22,33 +20,26 @@ Open to new opportunities.
 
 I came to software through data and systems work, so I'm comfortable on both sides of an API: schema and queries at one end, the service and its deployment at the other. I like the unglamorous parts: services that stay up, pipelines that don't need babysitting, and infrastructure you can stand up again from the repo.
 
-## Featured projects
+## Projects
 
-| Project | Summary |
-| --- | --- |
-| [pokemon-api-dotnet](https://github.com/rimkahan888/pokemon-api-dotnet) | .NET Web API that wraps PokéAPI, with a Vue 3 and TypeScript explorer for the catalog, Pokémon details, and a team builder with type coverage. Tests, GitHub Actions CI (format check and backend coverage), Docker Compose, OpenAPI, RFC 9457 problem details, health checks, and security headers. |
-| [job-board-flask](https://github.com/rimkahan888/job-board-flask) | Job board with a Flask and SQLite API and a Next.js UI (Tailwind, shadcn/ui). |
-| [personal_finance](https://github.com/rimkahan888/personal_finance) | Laravel 12 app for income, expenses, and a balance dashboard, with Breeze auth and SQLite. |
-| [data_engineering_Sept_2025](https://github.com/rimkahan888/data_engineering_Sept_2025) | Airflow pipeline that stages scraped data in MongoDB and loads ClickHouse, with Docker Compose and dbt. |
-| [test3](https://github.com/rimkahan888/test3) | Dockerized Airflow and dbt pipeline that uploads a small dataset to S3 and models it for Snowflake. |
-| [snowflake-mcq-dashboard](https://github.com/rimkahan888/snowflake-mcq-dashboard) | Next.js study app for Snowflake exam questions, with search, favorites, and a light/dark theme. |
-| [Language_Tool](https://github.com/rimkahan888/Language_Tool) | Browser app for French vocabulary: flashcards, quizzes, and example sentences. |
-
-## Recently updated
-
-Newest public repositories, excluding forks and empty repos.
+⭐ featured · the rest are my latest public repos.
 
 <!-- RECENT_REPOS:START -->
-| Repository | Description | Language |
-| --- | --- | --- |
-| [nba-player-hub](https://github.com/rimkahan888/nba-player-hub) | No description | C# |
-| [rimkahan888.github.io](https://github.com/rimkahan888/rimkahan888.github.io) | Johan Karjadi — portfolio | JavaScript |
-| [skills](https://github.com/rimkahan888/skills) | Johan's design and dev skill references | HTML |
-| [rat-race-escape](https://github.com/rimkahan888/rat-race-escape) | No description | C# |
-| [mother-of-all-prompt](https://github.com/rimkahan888/mother-of-all-prompt) | No description | JavaScript |
-| [SDLC](https://github.com/rimkahan888/SDLC) | No description | TypeScript |
-| [terraform004](https://github.com/rimkahan888/terraform004) | No description | HTML |
-| [pokemon-api-dotnet](https://github.com/rimkahan888/pokemon-api-dotnet) | No description | TypeScript |
+| Project | Summary | Language | Updated |
+| --- | --- | --- | --- |
+| ⭐ [pokemon-api-dotnet](https://github.com/rimkahan888/pokemon-api-dotnet) | .NET Web API over PokéAPI with a Vue 3 + TypeScript explorer and team builder, plus tests, CI, Docker and OpenAPI. | TypeScript | 2026-10-24 |
+| ⭐ [job-board-flask](https://github.com/rimkahan888/job-board-flask) | Job board with a Flask and SQLite API and a Next.js UI (Tailwind, shadcn/ui). | TypeScript | 2025-03-16 |
+| ⭐ [personal_finance](https://github.com/rimkahan888/personal_finance) | Laravel 12 app for income, expenses and a balance dashboard, with Breeze auth and SQLite. | Blade | 2025-08-05 |
+| ⭐ [data_engineering_Sept_2025](https://github.com/rimkahan888/data_engineering_Sept_2025) | Airflow pipeline that stages scraped data in MongoDB and loads ClickHouse, with Docker Compose and dbt. | Python | 2025-09-07 |
+| ⭐ [test3](https://github.com/rimkahan888/test3) | Dockerized Airflow and dbt pipeline that uploads a small dataset to S3 and models it for Snowflake. | Python | 2025-08-07 |
+| ⭐ [snowflake-mcq-dashboard](https://github.com/rimkahan888/snowflake-mcq-dashboard) | Next.js study app for Snowflake exam questions, with search, favorites and a light/dark theme. | TypeScript | 2025-03-08 |
+| ⭐ [Language_Tool](https://github.com/rimkahan888/Language_Tool) | Browser app for French vocabulary: flashcards, quizzes and example sentences. | HTML | 2025-02-16 |
+| [nba-player-hub](https://github.com/rimkahan888/nba-player-hub) | No description | C# | 2026-10-30 |
+| [rimkahan888.github.io](https://github.com/rimkahan888/rimkahan888.github.io) | Johan Karjadi — portfolio | JavaScript | 2026-10-30 |
+| [skills](https://github.com/rimkahan888/skills) | Johan's design and dev skill references | HTML | 2026-10-30 |
+| [rat-race-escape](https://github.com/rimkahan888/rat-race-escape) | No description | C# | 2026-10-29 |
+| [mother-of-all-prompt](https://github.com/rimkahan888/mother-of-all-prompt) | No description | JavaScript | 2026-10-26 |
+| [SDLC](https://github.com/rimkahan888/SDLC) | No description | TypeScript | 2026-10-25 |
 <!-- RECENT_REPOS:END -->
 
 ## Tech stack
