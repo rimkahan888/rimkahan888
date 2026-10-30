@@ -74,8 +74,8 @@ Newest public repositories, excluding forks and empty repos.
 ## GitHub
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=rimkahan888&show_icons=true&theme=dark&hide_border=true" alt="GitHub stats for rimkahan888" height="165" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=rimkahan888&layout=compact&langs_count=6&theme=dark&hide_border=true" alt="Most used languages for rimkahan888" height="165" />
+  <img src="https://raw.githubusercontent.com/rimkahan888/rimkahan888/output/github-stats.svg" alt="GitHub stats for rimkahan888" height="165" />
+  <img src="https://raw.githubusercontent.com/rimkahan888/rimkahan888/output/github-top-langs.svg" alt="Most used languages for rimkahan888" height="165" />
 </p>
 
 <p align="center">
