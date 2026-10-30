@@ -59,9 +59,7 @@ I came to software through data and systems work, so I'm comfortable on both sid
   <img src="https://raw.githubusercontent.com/rimkahan888/rimkahan888/output/github-top-langs.svg" alt="Most used languages for rimkahan888" height="165" />
 </p>
 
-<p align="center">
-  <sub>File size drives the language chart, so practice notebooks outweigh the application repos.</sub>
-</p>
+
 
 <p align="center">
   <picture>
