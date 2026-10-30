@@ -3,7 +3,7 @@ Projects: edit .github/featured-projects.json (repo + one-sentence summary, max 
 The Projects table is rebuilt daily by .github/workflows/recent-repos.yml.
 -->
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=F7B32B&height=140&section=header&text=ALWAYS%20GRINDING.&fontSize=38&fontColor=f0f6fc&fontAlignY=36&desc=building%20%C2%B7%20shipping%20%C2%B7%20New%20Zealand&descAlignY=68&descSize=16" alt="ALWAYS GRINDING. building · shipping · New Zealand" width="100%" />
+<img src="./.github/assets/banner-neon.svg" alt="ALWAYS GRINDING. building · shipping · New Zealand" width="100%" />
 
 # Johan
 
