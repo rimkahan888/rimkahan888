@@ -49,6 +49,9 @@ jobs:
           USERNAME: ${{ github.repository_owner }}
           SETTING_JSON: repo/.github/3d-contrib/pumpkin-dark.json
 
+      - name: Loop the 3D chart animation
+        run: sed -i 's/repeatCount="1"/repeatCount="indefinite"/g' profile-3d-contrib/profile-3d-pumpkin.svg
+
       - name: Add the 3D chart to dist
         run: cp profile-3d-contrib/profile-3d-pumpkin.svg dist/
 
