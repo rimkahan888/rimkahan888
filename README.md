@@ -89,3 +89,6 @@ Newest public repositories, excluding forks and empty repos.
     <img alt="GitHub contribution snake" src="https://raw.githubusercontent.com/rimkahan888/rimkahan888/output/github-contribution-grid-snake-dark.svg" width="100%" />
   </picture>
 </p>
+<p align="center">
+  <img alt="3D contribution chart for rimkahan888" src="https://raw.githubusercontent.com/rimkahan888/rimkahan888/output/profile-3d-pumpkin.svg" width="700" />
+</p>
