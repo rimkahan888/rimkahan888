@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 200" width="1200" height="200" role="img" aria-label="ALWAYS GRINDING. building · shipping · New Zealand">
+  <defs>
+    <filter id="tube" x="-20%" y="-80%" width="140%" height="260%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="2" result="a"/>
+      <feGaussianBlur in="SourceGraphic" stdDeviation="7" result="b"/>
+      <feGaussianBlur in="SourceGraphic" stdDeviation="16" result="c"/>
+      <feMerge><feMergeNode in="c"/><feMergeNode in="b"/><feMergeNode in="b"/><feMergeNode in="a"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <radialGradient id="halo" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#a3ff12" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#a3ff12" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M24 0H0V24" fill="none" stroke="#38bdf8" stroke-opacity="0.07" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="200" rx="18" fill="#070b10"/>
+  <rect width="1200" height="200" rx="18" fill="url(#grid)"/>
+  <ellipse cx="600" cy="90" rx="520" ry="90" fill="url(#halo)">
+    <animate attributeName="opacity" values="0;0;1;0.3;1;1;0" keyTimes="0;0.38;0.42;0.45;0.5;0.92;1" dur="7s" repeatCount="indefinite"/>
+  </ellipse>
+  <g font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" text-anchor="middle" font-weight="800" font-size="80" letter-spacing="6">
+    <text x="600" y="104" fill="none" stroke="#7dd3fc" stroke-width="2.5" stroke-dasharray="420" stroke-dashoffset="420" filter="url(#tube)">ALWAYS GRINDING.
+      <animate attributeName="stroke-dashoffset" values="420;0;0;420" keyTimes="0;0.38;0.92;1" dur="7s" repeatCount="indefinite"/>
+    </text>
+    <text x="600" y="104" fill="#a3ff12" filter="url(#tube)" opacity="0">ALWAYS GRINDING.
+      <animate attributeName="opacity" values="0;0;1;0.15;1;0.4;1;1;0" keyTimes="0;0.38;0.40;0.42;0.44;0.46;0.5;0.92;1" dur="7s" repeatCount="indefinite"/>
+    </text>
+  </g>
+  <text x="600" y="158" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" text-anchor="middle" font-size="26" font-weight="500" letter-spacing="4" fill="#7dd3fc" filter="url(#tube)" opacity="0.9">building · shipping · New Zealand
+    <animate attributeName="opacity" values="0.55;0.55;1;1;0.55" keyTimes="0;0.4;0.5;0.92;1" dur="7s" repeatCount="indefinite"/>
+  </text>
+</svg>
