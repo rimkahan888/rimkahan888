@@ -7,9 +7,7 @@ The Projects table is rebuilt daily by .github/workflows/recent-repos.yml.
 
 # Johan
 
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&pause=1000&color=F7B32B&center=true&vCenter=true&width=620&height=40&lines=ALWAYS+GRINDING.;Always+building.;Always+shipping." alt="Always grinding" />
-</p>
+
 
 **Software Engineer** · 2 years' working experience · Auckland, New Zealand
 
