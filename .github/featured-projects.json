@@ -1,9 +1,8 @@
 [
   {"repo": "pokemon-api-dotnet", "summary": ".NET Web API over PokéAPI with a Vue 3 + TypeScript explorer and team builder, plus tests, CI, Docker and OpenAPI."},
-  {"repo": "job-board-flask", "summary": "Job board with a Flask and SQLite API and a Next.js UI (Tailwind, shadcn/ui)."},
-  {"repo": "personal_finance", "summary": "Laravel 12 app for income, expenses and a balance dashboard, with Breeze auth and SQLite."},
-  {"repo": "data_engineering_Sept_2025", "summary": "Airflow pipeline that stages scraped data in MongoDB and loads ClickHouse, with Docker Compose and dbt."},
-  {"repo": "test3", "summary": "Dockerized Airflow and dbt pipeline that uploads a small dataset to S3 and models it for Snowflake."},
+  {"repo": "rat-race-escape", "summary": "Personal-finance board game: .NET 10 rules engine and API with a Vue 3 + TypeScript board, tested in CI."},
+  {"repo": "nba-player-hub", "summary": "NBA player hub built around original artwork, with bios, stats and contracts. .NET 10, ASP.NET Core and Blazor."},
+  {"repo": "SDLC", "summary": "Cheatsheet and prompt builder for an AI-native software lifecycle, with a Vue app and an ASP.NET Core API."},
   {"repo": "snowflake-mcq-dashboard", "summary": "Next.js study app for Snowflake exam questions, with search, favorites and a light/dark theme."},
   {"repo": "Language_Tool", "summary": "Browser app for French vocabulary: flashcards, quizzes and example sentences."}
 ]
