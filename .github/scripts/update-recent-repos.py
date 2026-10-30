@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
-"""Rewrite the RECENT_REPOS block in README.md from the public repos API.
+"""Rewrite the Projects table in README.md (between the RECENT_REPOS markers).
 
-Excludes forks, this profile repository, and empty repositories (size 0).
-Prints nothing and leaves the file untouched when the generated list matches
-what is already between the markers.
+One table: featured projects from .github/featured-projects.json first (marked
+with a star, in that order), then the most recently pushed public repos that
+aren't featured. Excludes forks, private and empty repos, and this profile repo.
+Leaves README.md untouched when nothing changed.
 """
 
 from __future__ import annotations
@@ -11,16 +12,16 @@ from __future__ import annotations
 import json
 import os
 import re
-import sys
 import urllib.error
 import urllib.request
 from pathlib import Path
 
 START = "<!-- RECENT_REPOS:START -->"
 END = "<!-- RECENT_REPOS:END -->"
-LIMIT = 8
+RECENT_LIMIT = 6
 DESCRIPTION_LIMIT = 140
 README_PATH = Path(os.environ.get("README_PATH", "README.md"))
+FEATURED_PATH = Path(os.environ.get("FEATURED_PATH", ".github/featured-projects.json"))
 PROFILE = os.environ.get("GITHUB_REPOSITORY", "rimkahan888/rimkahan888")
 BLOCK = re.compile(re.escape(START) + r".*?" + re.escape(END), re.DOTALL)
 
@@ -36,7 +37,7 @@ def github_json(url: str) -> list[dict]:
     token = os.environ.get("GITHUB_TOKEN") or os.environ.get("GH_TOKEN")
     headers = {
         "Accept": "application/vnd.github+json",
-        "User-Agent": "profile-readme-recent-repos",
+        "User-Agent": "profile-readme-projects",
         "X-GitHub-Api-Version": "2022-11-28",
     }
     if token:
@@ -79,56 +80,73 @@ def one_line(value: str | None, fallback: str) -> str:
 
 
 def eligible(repo: dict, profile: str, profile_name: str) -> bool:
-    if repo.get("fork"):
-        return False
-    if repo.get("private"):
+    if repo.get("fork") or repo.get("private"):
         return False
     full_name = str(repo.get("full_name") or "")
     name = str(repo.get("name") or "")
     if full_name.lower() == profile.lower() or name.lower() == profile_name.lower():
         return False
-    if int(repo.get("size") or 0) <= 0:
-        return False
-    return True
+    return int(repo.get("size") or 0) > 0
 
 
-def render_table(repos: list[dict]) -> str:
+def load_featured() -> list[dict]:
+    if not FEATURED_PATH.exists():
+        return []
+    items = json.loads(FEATURED_PATH.read_text(encoding="utf-8"))
+    return [item for item in items if item.get("repo")]
+
+
+def row(repo: dict, summary: str, star: bool) -> str:
+    name = str(repo["name"])
+    url = str(repo.get("html_url") or f"https://github.com/{repo.get('full_name')}")
+    label = f"⭐ [{name}]({url})" if star else f"[{name}]({url})"
+    language = one_line(repo.get("language"), "—")
+    updated = str(repo.get("pushed_at") or "")[:10] or "—"
+    return f"| {label} | {summary} | {language} | {updated} |"
+
+
+def render_table(repos: list[dict], profile: str, profile_name: str) -> str:
+    by_name = {str(r.get("name") or "").lower(): r for r in repos}
     lines = [
-        "| Repository | Description | Language |",
-        "| --- | --- | --- |",
+        "| Project | Summary | Language | Updated |",
+        "| --- | --- | --- | --- |",
     ]
-    for repo in repos:
-        name = str(repo["name"])
-        url = str(repo.get("html_url") or f"https://github.com/{repo.get('full_name')}")
-        description = one_line(repo.get("description"), "No description")
-        language = one_line(repo.get("language"), "—")
-        lines.append(f"| [{name}]({url}) | {description} | {language} |")
+    featured_names: set[str] = set()
+    for item in load_featured():
+        key = str(item["repo"]).lower()
+        repo = by_name.get(key)
+        if repo is None or repo.get("private"):
+            continue
+        featured_names.add(key)
+        summary = one_line(item.get("summary") or repo.get("description"), "No description")
+        lines.append(row(repo, summary, star=True))
+
+    recent = [
+        r for r in repos
+        if eligible(r, profile, profile_name) and str(r.get("name") or "").lower() not in featured_names
+    ]
+    recent.sort(key=lambda r: (str(r.get("pushed_at") or ""), str(r.get("name") or "")), reverse=True)
+    for repo in recent[:RECENT_LIMIT]:
+        lines.append(row(repo, one_line(repo.get("description"), "No description"), star=False))
     return "\n".join(lines)
-
-
-def select_recent(repos: list[dict], profile: str, profile_name: str) -> list[dict]:
-    chosen = [repo for repo in repos if eligible(repo, profile, profile_name)]
-    chosen.sort(key=lambda repo: (str(repo.get("pushed_at") or ""), str(repo.get("name") or "")), reverse=True)
-    return chosen[:LIMIT]
 
 
 def replace_block(readme: str, table: str) -> str:
     if not BLOCK.search(readme):
         raise SystemExit("README is missing RECENT_REPOS:START / RECENT_REPOS:END markers")
-    block = f"{START}\n{table}\n{END}"
-    updated, count = BLOCK.subn(block, readme, count=1)
+    updated, count = BLOCK.subn(f"{START}\n{table}\n{END}", readme, count=1)
     if count != 1:
-        raise SystemExit(f"Expected to replace one recent-repos block, replaced {count}")
+        raise SystemExit(f"Expected to replace one projects block, replaced {count}")
     return updated
 
 
 def main() -> None:
     owner, profile_name = owner_and_name(PROFILE)
-    table = render_table(select_recent(fetch_repos(owner), PROFILE, profile_name))
+    table = render_table(fetch_repos(owner), PROFILE, profile_name)
     original = README_PATH.read_text(encoding="utf-8")
     updated = replace_block(original, table)
     if updated == original:
-        print("Recent repositories list is unchanged.")
+        print("Projects table is unchanged.")
         return
     README_PATH.write_text(updated, encoding="utf-8")
     print(f"Updated {README_PATH}")
