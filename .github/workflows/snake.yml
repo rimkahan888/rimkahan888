@@ -1,6 +1,7 @@
-# Copy to rimkahan888/rimkahan888 as .github/workflows/snake.yml
-# Then: Actions → generate contribution snake → Run workflow
-# The README snake image 404s until this has run once.
+# Contribution snake (Halloween pumpkin colours + jack-o'-lantern head)
+# and the 3D contribution chart, published together to the output branch.
+# To go back to the old look: color_snake=#F7B32B with no color_dots,
+# and remove the "Jack-o'-lantern head" step.
 
 name: generate contribution snake
 
@@ -12,8 +13,7 @@ on:
     branches:
       - main
 
-# Shares the output branch with the stats-card workflow. Do not publish
-# over files that workflow already committed.
+# Shares the output branch with the stats-card workflow.
 concurrency:
   group: profile-readme-output
   cancel-in-progress: false
@@ -21,18 +21,36 @@ concurrency:
 jobs:
   generate:
     runs-on: ubuntu-24.04
-    timeout-minutes: 5
+    timeout-minutes: 10
     permissions:
       contents: write
     steps:
+      - name: Checkout main (scripts and settings)
+        uses: actions/checkout@v4
+        with:
+          path: repo
+
       - uses: Platane/snk/svg-only@v3
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
-            dist/github-contribution-grid-snake.svg?color_snake=#F7B32B
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=#F7B32B
+            dist/github-contribution-grid-snake.svg?color_snake=#ff7518&color_dots=#ebedf0,#ffee4a,#ffc501,#fe9600,#03001c
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=#ff7518&color_dots=#161b22,#631c03,#bd561d,#fa7a18,#fddf68
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Jack-o'-lantern head
+        run: python3 repo/.github/scripts/enrich_snake.py dist/github-contribution-grid-snake-dark.svg
+
+      - name: 3D contribution chart
+        uses: yoshi389111/github-profile-3d-contrib@latest
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: ${{ github.repository_owner }}
+          SETTING_JSON: repo/.github/3d-contrib/pumpkin-dark.json
+
+      - name: Add the 3D chart to dist
+        run: cp profile-3d-contrib/profile-3d-pumpkin.svg dist/
 
       - name: Keep stats cards already on the output branch
         uses: actions/checkout@v4
@@ -41,14 +59,14 @@ jobs:
           path: output-prev
           fetch-depth: 1
 
-      - name: Copy existing output files other than the snake
+      - name: Copy existing output files this job doesn't make
         run: |
           set -eu
           find output-prev -type f -not -path 'output-prev/.git/*' -print0 |
             while IFS= read -r -d '' file; do
               rel=${file#output-prev/}
               case "$rel" in
-                github-contribution-grid-snake.svg|github-contribution-grid-snake-dark.svg)
+                github-contribution-grid-snake.svg|github-contribution-grid-snake-dark.svg|profile-3d-pumpkin.svg)
                   continue
                   ;;
               esac
