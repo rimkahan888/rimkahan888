@@ -1,0 +1,67 @@
+# Renders the profile stats and top-language cards onto the output branch.
+# Public data only, so the default GITHUB_TOKEN is enough. A personal
+# access token is not used. Existing files on that branch, including the
+# contribution snake, are left in place.
+
+name: generate github stats cards
+
+on:
+  schedule:
+    - cron: "15 1 * * *"
+  workflow_dispatch:
+  pull_request:
+    paths:
+      - .github/workflows/stats.yml
+      - .github/scripts/render-github-cards.py
+      - README.md
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-readme-output
+  cancel-in-progress: false
+
+jobs:
+  generate:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Render stats cards
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+          OUTPUT_DIR: dist
+        run: python3 .github/scripts/render-github-cards.py
+
+      - name: Publish cards to the output branch
+        run: |
+          set -eu
+          for attempt in 1 2 3 4 5; do
+            git fetch origin output
+            git worktree remove --force /tmp/output-branch >/dev/null 2>&1 || true
+            git worktree add --detach /tmp/output-branch origin/output
+            cp dist/github-stats.svg dist/github-top-langs.svg /tmp/output-branch/
+            git -C /tmp/output-branch add github-stats.svg github-top-langs.svg
+            if git -C /tmp/output-branch diff --cached --quiet; then
+              echo "Stats cards are unchanged."
+              exit 0
+            fi
+            git -C /tmp/output-branch \
+              -c user.name="github-actions[bot]" \
+              -c user.email="41898282+github-actions[bot]@users.noreply.github.com" \
+              commit -m "Update GitHub stats cards"
+            if git -C /tmp/output-branch push origin HEAD:output; then
+              echo "Published stats cards to the output branch."
+              exit 0
+            fi
+            echo "Push to output was rejected; retrying (${attempt}/5)."
+            sleep $((attempt * 2))
+          done
+          echo "Could not publish stats cards to the output branch."
+          exit 1

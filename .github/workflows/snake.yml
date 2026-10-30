@@ -12,6 +12,12 @@ on:
     branches:
       - main
 
+# Shares the output branch with the stats-card workflow. Do not publish
+# over files that workflow already committed.
+concurrency:
+  group: profile-readme-output
+  cancel-in-progress: false
+
 jobs:
   generate:
     runs-on: ubuntu-24.04
@@ -27,6 +33,28 @@ jobs:
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=#F7B32B
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Keep stats cards already on the output branch
+        uses: actions/checkout@v4
+        with:
+          ref: output
+          path: output-prev
+          fetch-depth: 1
+
+      - name: Copy existing output files other than the snake
+        run: |
+          set -eu
+          find output-prev -type f -not -path 'output-prev/.git/*' -print0 |
+            while IFS= read -r -d '' file; do
+              rel=${file#output-prev/}
+              case "$rel" in
+                github-contribution-grid-snake.svg|github-contribution-grid-snake-dark.svg)
+                  continue
+                  ;;
+              esac
+              mkdir -p "dist/$(dirname "$rel")"
+              cp "$file" "dist/$rel"
+            done
 
       - uses: crazy-max/ghaction-github-pages@v5
         with:
