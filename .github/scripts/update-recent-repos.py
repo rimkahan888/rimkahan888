@@ -1,10 +1,9 @@
 #!/usr/bin/env python3
 """Rewrite the Projects table in README.md (between the RECENT_REPOS markers).
 
-One table: featured projects from .github/featured-projects.json first (marked
-with a star, in that order), then the most recently pushed public repos that
-aren't featured. Excludes forks, private and empty repos, and this profile repo.
-Leaves README.md untouched when nothing changed.
+Lists the projects in .github/featured-projects.json, in that order, with each
+repo's current main language. Set RECENT_LIMIT above 0 to also append the
+latest public repos that aren't listed. Leaves README.md untouched when nothing changed.
 """
 
 from __future__ import annotations
@@ -18,7 +17,7 @@ from pathlib import Path
 
 START = "<!-- RECENT_REPOS:START -->"
 END = "<!-- RECENT_REPOS:END -->"
-RECENT_LIMIT = 6
+RECENT_LIMIT = 0
 DESCRIPTION_LIMIT = 140
 README_PATH = Path(os.environ.get("README_PATH", "README.md"))
 FEATURED_PATH = Path(os.environ.get("FEATURED_PATH", ".github/featured-projects.json"))
@@ -96,20 +95,18 @@ def load_featured() -> list[dict]:
     return [item for item in items if item.get("repo")]
 
 
-def row(repo: dict, summary: str, star: bool) -> str:
+def row(repo: dict, summary: str) -> str:
     name = str(repo["name"])
     url = str(repo.get("html_url") or f"https://github.com/{repo.get('full_name')}")
-    label = f"⭐ [{name}]({url})" if star else f"[{name}]({url})"
     language = one_line(repo.get("language"), "—")
-    updated = str(repo.get("pushed_at") or "")[:10] or "—"
-    return f"| {label} | {summary} | {language} | {updated} |"
+    return f"| [{name}]({url}) | {summary} | {language} |"
 
 
 def render_table(repos: list[dict], profile: str, profile_name: str) -> str:
     by_name = {str(r.get("name") or "").lower(): r for r in repos}
     lines = [
-        "| Project | Summary | Language | Updated |",
-        "| --- | --- | --- | --- |",
+        "| Project | Summary | Language |",
+        "| --- | --- | --- |",
     ]
     featured_names: set[str] = set()
     for item in load_featured():
@@ -119,15 +116,15 @@ def render_table(repos: list[dict], profile: str, profile_name: str) -> str:
             continue
         featured_names.add(key)
         summary = one_line(item.get("summary") or repo.get("description"), "No description")
-        lines.append(row(repo, summary, star=True))
+        lines.append(row(repo, summary))
 
     recent = [
         r for r in repos
         if eligible(r, profile, profile_name) and str(r.get("name") or "").lower() not in featured_names
     ]
     recent.sort(key=lambda r: (str(r.get("pushed_at") or ""), str(r.get("name") or "")), reverse=True)
-    for repo in recent[:RECENT_LIMIT]:
-        lines.append(row(repo, one_line(repo.get("description"), "No description"), star=False))
+    for repo in recent[:max(RECENT_LIMIT, 0)]:
+        lines.append(row(repo, one_line(repo.get("description"), "No description")))
     return "\n".join(lines)
 
 
