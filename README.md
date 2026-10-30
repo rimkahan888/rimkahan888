@@ -17,19 +17,6 @@ Open to new opportunities.
 
 I came to software through data and systems work, so I'm comfortable on both sides of an API: schema and queries at one end, the service and its deployment at the other. I like the unglamorous parts: services that stay up, pipelines that don't need babysitting, and infrastructure you can stand up again from the repo.
 
-## Projects
-
-<!-- RECENT_REPOS:START -->
-| Project | Summary | Language |
-| --- | --- | --- |
-| [pokemon-api-dotnet](https://github.com/rimkahan888/pokemon-api-dotnet) | .NET Web API over PokéAPI with a Vue 3 + TypeScript explorer and team builder, plus tests, CI, Docker and OpenAPI. | TypeScript |
-| [rat-race-escape](https://github.com/rimkahan888/rat-race-escape) | Personal-finance board game: .NET 10 rules engine and API with a Vue 3 + TypeScript board, tested in CI. | C# |
-| [nba-player-hub](https://github.com/rimkahan888/nba-player-hub) | NBA player hub built around original artwork, with bios, stats and contracts. .NET 10, ASP.NET Core and Blazor. | C# |
-| [SDLC](https://github.com/rimkahan888/SDLC) | Cheatsheet and prompt builder for an AI-native software lifecycle, with a Vue app and an ASP.NET Core API. | TypeScript |
-| [snowflake-mcq-dashboard](https://github.com/rimkahan888/snowflake-mcq-dashboard) | Next.js study app for Snowflake exam questions, with search, favorites and a light/dark theme. | TypeScript |
-| [Language_Tool](https://github.com/rimkahan888/Language_Tool) | Browser app for French vocabulary: flashcards, quizzes and example sentences. | HTML |
-<!-- RECENT_REPOS:END -->
-
 ## Tech stack
 
 <p>
@@ -49,6 +36,21 @@ I came to software through data and systems work, so I'm comfortable on both sid
   <img alt="dbt" src="https://img.shields.io/badge/dbt-FF694B?style=flat&logo=dbt&logoColor=white" />
   <img alt="AWS" src="https://img.shields.io/badge/AWS-232F3E?style=flat&logo=amazonaws&logoColor=white" />
 </p>
+
+## Projects
+
+<!-- RECENT_REPOS:START -->
+| Project | Summary | Language |
+| --- | --- | --- |
+| [pokemon-api-dotnet](https://github.com/rimkahan888/pokemon-api-dotnet) | .NET Web API over PokéAPI with a Vue 3 + TypeScript explorer and team builder, plus tests, CI, Docker and OpenAPI. | TypeScript |
+| [rat-race-escape](https://github.com/rimkahan888/rat-race-escape) | Personal-finance board game: .NET 10 rules engine and API with a Vue 3 + TypeScript board, tested in CI. | C# |
+| [nba-player-hub](https://github.com/rimkahan888/nba-player-hub) | NBA player hub built around original artwork, with bios, stats and contracts. .NET 10, ASP.NET Core and Blazor. | C# |
+| [SDLC](https://github.com/rimkahan888/SDLC) | Cheatsheet and prompt builder for an AI-native software lifecycle, with a Vue app and an ASP.NET Core API. | TypeScript |
+| [snowflake-mcq-dashboard](https://github.com/rimkahan888/snowflake-mcq-dashboard) | Next.js study app for Snowflake exam questions, with search, favorites and a light/dark theme. | TypeScript |
+| [Language_Tool](https://github.com/rimkahan888/Language_Tool) | Browser app for French vocabulary: flashcards, quizzes and example sentences. | HTML |
+<!-- RECENT_REPOS:END -->
+
+
 
 ## GitHub
 
