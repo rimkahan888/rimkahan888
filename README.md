@@ -1,7 +1,6 @@
 <!--
-Featured projects: edit .github/featured-projects.json (repo + one-sentence summary).
-The Projects table is rebuilt daily by .github/workflows/recent-repos.yml:
-featured first (⭐), then the latest public repos.
+Projects: edit .github/featured-projects.json (repo + one-sentence summary, max 6).
+The Projects table is rebuilt daily by .github/workflows/recent-repos.yml.
 -->
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=F7B32B&height=140&section=header&text=ALWAYS%20GRINDING.&fontSize=38&fontColor=f0f6fc&fontAlignY=36&desc=building%20%C2%B7%20shipping%20%C2%B7%20New%20Zealand&descAlignY=68&descSize=16" alt="ALWAYS GRINDING. building · shipping · New Zealand" width="100%" />
@@ -22,24 +21,15 @@ I came to software through data and systems work, so I'm comfortable on both sid
 
 ## Projects
 
-⭐ featured · the rest are my latest public repos.
-
 <!-- RECENT_REPOS:START -->
-| Project | Summary | Language | Updated |
-| --- | --- | --- | --- |
-| ⭐ [pokemon-api-dotnet](https://github.com/rimkahan888/pokemon-api-dotnet) | .NET Web API over PokéAPI with a Vue 3 + TypeScript explorer and team builder, plus tests, CI, Docker and OpenAPI. | TypeScript | 2026-10-24 |
-| ⭐ [job-board-flask](https://github.com/rimkahan888/job-board-flask) | Job board with a Flask and SQLite API and a Next.js UI (Tailwind, shadcn/ui). | TypeScript | 2025-03-16 |
-| ⭐ [personal_finance](https://github.com/rimkahan888/personal_finance) | Laravel 12 app for income, expenses and a balance dashboard, with Breeze auth and SQLite. | Blade | 2025-08-05 |
-| ⭐ [data_engineering_Sept_2025](https://github.com/rimkahan888/data_engineering_Sept_2025) | Airflow pipeline that stages scraped data in MongoDB and loads ClickHouse, with Docker Compose and dbt. | Python | 2025-09-07 |
-| ⭐ [test3](https://github.com/rimkahan888/test3) | Dockerized Airflow and dbt pipeline that uploads a small dataset to S3 and models it for Snowflake. | Python | 2025-08-07 |
-| ⭐ [snowflake-mcq-dashboard](https://github.com/rimkahan888/snowflake-mcq-dashboard) | Next.js study app for Snowflake exam questions, with search, favorites and a light/dark theme. | TypeScript | 2025-03-08 |
-| ⭐ [Language_Tool](https://github.com/rimkahan888/Language_Tool) | Browser app for French vocabulary: flashcards, quizzes and example sentences. | HTML | 2025-02-16 |
-| [nba-player-hub](https://github.com/rimkahan888/nba-player-hub) | No description | C# | 2026-10-30 |
-| [rimkahan888.github.io](https://github.com/rimkahan888/rimkahan888.github.io) | Johan Karjadi — portfolio | JavaScript | 2026-10-30 |
-| [skills](https://github.com/rimkahan888/skills) | Johan's design and dev skill references | HTML | 2026-10-30 |
-| [rat-race-escape](https://github.com/rimkahan888/rat-race-escape) | No description | C# | 2026-10-29 |
-| [mother-of-all-prompt](https://github.com/rimkahan888/mother-of-all-prompt) | No description | JavaScript | 2026-10-26 |
-| [SDLC](https://github.com/rimkahan888/SDLC) | No description | TypeScript | 2026-10-25 |
+| Project | Summary | Language |
+| --- | --- | --- |
+| [pokemon-api-dotnet](https://github.com/rimkahan888/pokemon-api-dotnet) | .NET Web API over PokéAPI with a Vue 3 + TypeScript explorer and team builder, plus tests, CI, Docker and OpenAPI. | TypeScript |
+| [rat-race-escape](https://github.com/rimkahan888/rat-race-escape) | Personal-finance board game: .NET 10 rules engine and API with a Vue 3 + TypeScript board, tested in CI. | C# |
+| [nba-player-hub](https://github.com/rimkahan888/nba-player-hub) | NBA player hub built around original artwork, with bios, stats and contracts. .NET 10, ASP.NET Core and Blazor. | C# |
+| [SDLC](https://github.com/rimkahan888/SDLC) | Cheatsheet and prompt builder for an AI-native software lifecycle, with a Vue app and an ASP.NET Core API. | TypeScript |
+| [snowflake-mcq-dashboard](https://github.com/rimkahan888/snowflake-mcq-dashboard) | Next.js study app for Snowflake exam questions, with search, favorites and a light/dark theme. | TypeScript |
+| [Language_Tool](https://github.com/rimkahan888/Language_Tool) | Browser app for French vocabulary: flashcards, quizzes and example sentences. | HTML |
 <!-- RECENT_REPOS:END -->
 
 ## Tech stack
