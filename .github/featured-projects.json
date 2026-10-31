@@ -1,8 +1,8 @@
 [
-  {"repo": "pokemon-api-dotnet", "summary": ".NET Web API over PokéAPI with a Vue 3 + TypeScript explorer and team builder, plus tests, CI, Docker and OpenAPI."},
-  {"repo": "rat-race-escape", "summary": "Personal-finance board game: .NET 10 rules engine and API with a Vue 3 + TypeScript board, tested in CI."},
-  {"repo": "nba-player-hub", "summary": "NBA player hub built around original artwork, with bios, stats and contracts. .NET 10, ASP.NET Core and Blazor."},
-  {"repo": "SDLC", "summary": "Cheatsheet and prompt builder for an AI-native software lifecycle, with a Vue app and an ASP.NET Core API."},
-  {"repo": "snowflake-mcq-dashboard", "summary": "Next.js study app for Snowflake exam questions, with search, favorites and a light/dark theme."},
-  {"repo": "Language_Tool", "summary": "Browser app for French vocabulary: flashcards, quizzes and example sentences."}
+  {"repo": "pokemon-api-dotnet", "icon": "⚡", "tagline": "PokéAPI explorer & team builder", "detail": "**.NET** Web API + **Vue 3** front end · tests, CI, Docker, OpenAPI"},
+  {"repo": "rat-race-escape", "icon": "🎲", "tagline": "Personal-finance board game", "detail": "**.NET 10** rules engine & API + **Vue 3 / TypeScript** board · tested in CI"},
+  {"repo": "nba-player-hub", "icon": "🏀", "tagline": "NBA player hub, original artwork", "detail": "bios, stats & contracts · **.NET 10**, **ASP.NET Core**, **Blazor**"},
+  {"repo": "SDLC", "icon": "🧭", "tagline": "AI-native software lifecycle", "detail": "cheatsheet & prompt builder · **Vue** app + **ASP.NET Core** API"},
+  {"repo": "snowflake-mcq-dashboard", "icon": "❄️", "tagline": "Snowflake exam study app", "detail": "search, favorites, light/dark theme · **Next.js**"},
+  {"repo": "Language_Tool", "icon": "🇫🇷", "tagline": "French vocabulary trainer", "detail": "flashcards, quizzes & example sentences · in the browser"}
 ]
