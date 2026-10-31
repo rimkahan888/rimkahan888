@@ -14,8 +14,7 @@ The Projects list below is rebuilt daily by .github/workflows/recent-repos.yml.
 <!-- Variation A: paste over the <details>…</details> Project links block in README.md -->
 <!-- Heads-up: .github/workflows/recent-repos.yml rebuilds the RECENT_REPOS block daily (02:30 UTC). To keep this layout, also replace .github/featured-projects.json with featured-projects.new.json and .github/scripts/update-recent-repos.py with update-recent-repos.var-a.py (same folder as this file). -->
 
-<details>
-<summary><b>Project links</b></summary>
+
 
 <!-- RECENT_REPOS:START -->
 - ⚡ **[pokemon-api-dotnet](https://github.com/rimkahan888/pokemon-api-dotnet)** — *PokéAPI explorer & team builder* · $`\small\color{#E8C36A}\textsf{TypeScript}`$ · **.NET** Web API + **Vue 3** front end · tests, CI, Docker, OpenAPI
