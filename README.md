@@ -11,16 +11,22 @@ The Projects list below is rebuilt daily by .github/workflows/recent-repos.yml.
 <details>
 <summary><b>Project links</b></summary>
 
+<!-- Variation A: paste over the <details>…</details> Project links block in README.md -->
+<!-- Heads-up: .github/workflows/recent-repos.yml rebuilds the RECENT_REPOS block daily (02:30 UTC). To keep this layout, also replace .github/featured-projects.json with featured-projects.new.json and .github/scripts/update-recent-repos.py with update-recent-repos.var-a.py (same folder as this file). -->
+
+<details>
+<summary><b>Project links</b></summary>
+
 <!-- RECENT_REPOS:START -->
-| Project | Summary | Language |
-| --- | --- | --- |
-| [pokemon-api-dotnet](https://github.com/rimkahan888/pokemon-api-dotnet) | .NET Web API over PokéAPI with a Vue 3 + TypeScript explorer and team builder, plus tests, CI, Docker and OpenAPI. | TypeScript |
-| [rat-race-escape](https://github.com/rimkahan888/rat-race-escape) | Personal-finance board game: .NET 10 rules engine and API with a Vue 3 + TypeScript board, tested in CI. | C# |
-| [nba-player-hub](https://github.com/rimkahan888/nba-player-hub) | NBA player hub built around original artwork, with bios, stats and contracts. .NET 10, ASP.NET Core and Blazor. | C# |
-| [SDLC](https://github.com/rimkahan888/SDLC) | Cheatsheet and prompt builder for an AI-native software lifecycle, with a Vue app and an ASP.NET Core API. | TypeScript |
-| [snowflake-mcq-dashboard](https://github.com/rimkahan888/snowflake-mcq-dashboard) | Next.js study app for Snowflake exam questions, with search, favorites and a light/dark theme. | TypeScript |
-| [Language_Tool](https://github.com/rimkahan888/Language_Tool) | Browser app for French vocabulary: flashcards, quizzes and example sentences. | HTML |
+- ⚡ **[pokemon-api-dotnet](https://github.com/rimkahan888/pokemon-api-dotnet)** — *PokéAPI explorer & team builder* · $`\small\color{#E8C36A}\textsf{TypeScript}`$ · **.NET** Web API + **Vue 3** front end · tests, CI, Docker, OpenAPI
+- 🎲 **[rat-race-escape](https://github.com/rimkahan888/rat-race-escape)** — *Personal-finance board game* · $`\small\color{#E8C36A}\textsf{C\#}`$ · **.NET 10** rules engine & API + **Vue 3 / TypeScript** board · tested in CI
+- 🏀 **[nba-player-hub](https://github.com/rimkahan888/nba-player-hub)** — *NBA player hub, original artwork* · $`\small\color{#E8C36A}\textsf{C\#}`$ · bios, stats & contracts · **.NET 10**, **ASP.NET Core**, **Blazor**
+- 🧭 **[SDLC](https://github.com/rimkahan888/SDLC)** — *AI-native software lifecycle* · $`\small\color{#E8C36A}\textsf{TypeScript}`$ · cheatsheet & prompt builder · **Vue** app + **ASP.NET Core** API
+- ❄️ **[snowflake-mcq-dashboard](https://github.com/rimkahan888/snowflake-mcq-dashboard)** — *Snowflake exam study app* · $`\small\color{#E8C36A}\textsf{TypeScript}`$ · search, favorites, light/dark theme · **Next.js**
+- 🇫🇷 **[Language_Tool](https://github.com/rimkahan888/Language_Tool)** — *French vocabulary trainer* · $`\small\color{#E8C36A}\textsf{HTML}`$ · flashcards, quizzes & example sentences · in the browser
 <!-- RECENT_REPOS:END -->
+
+</details>
 
 </details>
 
