@@ -2,8 +2,8 @@
 """Rewrite the Projects table in README.md (between the RECENT_REPOS markers).
 
 Lists the projects in .github/featured-projects.json, in that order, with each
-repo's current main language. Set RECENT_LIMIT above 0 to also append the
-latest public repos that aren't listed. Leaves README.md untouched when nothing changed.
+repo's current main language folded into each line (icon, tagline, detail from the JSON).
+Leaves README.md untouched when nothing changed.
 """
 
 from __future__ import annotations
@@ -12,12 +12,12 @@ import json
 import os
 import re
 import urllib.error
+import urllib.parse
 import urllib.request
 from pathlib import Path
 
 START = "<!-- RECENT_REPOS:START -->"
 END = "<!-- RECENT_REPOS:END -->"
-RECENT_LIMIT = 0
 DESCRIPTION_LIMIT = 140
 README_PATH = Path(os.environ.get("README_PATH", "README.md"))
 FEATURED_PATH = Path(os.environ.get("FEATURED_PATH", ".github/featured-projects.json"))
@@ -95,36 +95,42 @@ def load_featured() -> list[dict]:
     return [item for item in items if item.get("repo")]
 
 
-def row(repo: dict, summary: str) -> str:
+BADGES = {  # language -> (shields colour, simple-icons logo)
+    "TypeScript": ("3178C6", "typescript"), "C#": ("512BD4", "dotnet"),
+    "HTML": ("E34F26", "html5"), "JavaScript": ("F7DF1E", "javascript"), "Python": ("3776AB", "python"),
+}
+
+
+def md_to_html(text: str) -> str:
+    text = text.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
+    return re.sub(r"\*\*(.+?)\*\*", r"<b>\1</b>", text)
+
+
+def tex(text: str) -> str:
+    return text.replace("#", r"\#").replace(" ", r"\ ")
+
+
+def row(repo: dict, item: dict) -> str:
     name = str(repo["name"])
     url = str(repo.get("html_url") or f"https://github.com/{repo.get('full_name')}")
-    language = one_line(repo.get("language"), "—")
-    return f"| [{name}]({url}) | {summary} | {language} |"
+    language = str(repo.get("language") or "")
+    icon = item.get("icon", "▫️")
+    tagline = item.get("tagline") or one_line(repo.get("description"), "No description")
+    detail = item.get("detail", "")
+    tag = f" · $`\\small\\color{{#E8C36A}}\\textsf{{{tex(language)}}}`$" if language else ""
+    tail = f" · {detail}" if detail else ""
+    return f"- {icon} **[{name}]({url})** — *{tagline}*{tag}{tail}"
 
 
 def render_table(repos: list[dict], profile: str, profile_name: str) -> str:
     by_name = {str(r.get("name") or "").lower(): r for r in repos}
-    lines = [
-        "| Project | Summary | Language |",
-        "| --- | --- | --- |",
-    ]
-    featured_names: set[str] = set()
+    lines = []
     for item in load_featured():
-        key = str(item["repo"]).lower()
-        repo = by_name.get(key)
+        repo = by_name.get(str(item["repo"]).lower())
         if repo is None or repo.get("private"):
             continue
-        featured_names.add(key)
-        summary = one_line(item.get("summary") or repo.get("description"), "No description")
-        lines.append(row(repo, summary))
+        lines.append(row(repo, item))
 
-    recent = [
-        r for r in repos
-        if eligible(r, profile, profile_name) and str(r.get("name") or "").lower() not in featured_names
-    ]
-    recent.sort(key=lambda r: (str(r.get("pushed_at") or ""), str(r.get("name") or "")), reverse=True)
-    for repo in recent[:max(RECENT_LIMIT, 0)]:
-        lines.append(row(repo, one_line(repo.get("description"), "No description")))
     return "\n".join(lines)
 
 
