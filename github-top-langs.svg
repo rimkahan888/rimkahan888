@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="452" height="200" viewBox="0 0 452 200" role="img">
+  <title>Most used languages</title>
+  <desc>Jupyter Notebook 1973202, TypeScript 1041276, HTML 1006823, C# 861554, JavaScript 211612, Blade 153425</desc>
+  <defs>
+    <clipPath id="languages-card">
+      <rect width="452" height="200" rx="8"/>
+    </clipPath>
+  </defs>
+  <g clip-path="url(#languages-card)">
+    <rect width="452" height="200" fill="#161b22"/>
+    <rect width="4" height="200" fill="#F7B32B"/>
+    <text x="22" y="34" fill="#F7B32B" font-family="Segoe UI, Ubuntu, Helvetica, Arial, sans-serif" font-size="16" font-weight="700">Most used languages</text>
+    <text x="22" y="54" fill="#8b949e" font-family="Segoe UI, Ubuntu, Helvetica, Arial, sans-serif" font-size="12">Share of code by file size, top 6.</text>
+  <circle cx="28" cy="73" r="4" fill="#DA5B0B"/>
+  <text x="40" y="76" fill="#f0f6fc" font-family="Segoe UI, Ubuntu, Helvetica, Arial, sans-serif" font-size="13">Jupyter Notebook</text>
+  <rect x="176" y="67" width="196" height="8" rx="4" fill="#21262d"/>
+  <rect x="176" y="67" width="68.01" height="8" rx="4.00" fill="#DA5B0B"/>
+  <text x="434" y="76" fill="#8b949e" font-family="Segoe UI, Ubuntu, Helvetica, Arial, sans-serif" font-size="12" text-anchor="end">34.7%</text>
+  <circle cx="28" cy="93" r="4" fill="#3178c6"/>
+  <text x="40" y="96" fill="#f0f6fc" font-family="Segoe UI, Ubuntu, Helvetica, Arial, sans-serif" font-size="13">TypeScript</text>
+  <rect x="176" y="87" width="196" height="8" rx="4" fill="#21262d"/>
+  <rect x="176" y="87" width="35.89" height="8" rx="4.00" fill="#3178c6"/>
+  <text x="434" y="96" fill="#8b949e" font-family="Segoe UI, Ubuntu, Helvetica, Arial, sans-serif" font-size="12" text-anchor="end">18.3%</text>
+  <circle cx="28" cy="113" r="4" fill="#e34c26"/>
+  <text x="40" y="116" fill="#f0f6fc" font-family="Segoe UI, Ubuntu, Helvetica, Arial, sans-serif" font-size="13">HTML</text>
+  <rect x="176" y="107" width="196" height="8" rx="4" fill="#21262d"/>
+  <rect x="176" y="107" width="34.70" height="8" rx="4.00" fill="#e34c26"/>
+  <text x="434" y="116" fill="#8b949e" font-family="Segoe UI, Ubuntu, Helvetica, Arial, sans-serif" font-size="12" text-anchor="end">17.7%</text>
+  <circle cx="28" cy="133" r="4" fill="#7355dd"/>
+  <text x="40" y="136" fill="#f0f6fc" font-family="Segoe UI, Ubuntu, Helvetica, Arial, sans-serif" font-size="13">C#</text>
+  <rect x="176" y="127" width="196" height="8" rx="4" fill="#21262d"/>
+  <rect x="176" y="127" width="29.70" height="8" rx="4.00" fill="#7355dd"/>
+  <text x="434" y="136" fill="#8b949e" font-family="Segoe UI, Ubuntu, Helvetica, Arial, sans-serif" font-size="12" text-anchor="end">15.2%</text>
+  <circle cx="28" cy="153" r="4" fill="#f1e05a"/>
+  <text x="40" y="156" fill="#f0f6fc" font-family="Segoe UI, Ubuntu, Helvetica, Arial, sans-serif" font-size="13">JavaScript</text>
+  <rect x="176" y="147" width="196" height="8" rx="4" fill="#21262d"/>
+  <rect x="176" y="147" width="7.29" height="8" rx="3.65" fill="#f1e05a"/>
+  <text x="434" y="156" fill="#8b949e" font-family="Segoe UI, Ubuntu, Helvetica, Arial, sans-serif" font-size="12" text-anchor="end">3.7%</text>
+  <circle cx="28" cy="173" r="4" fill="#f7523f"/>
+  <text x="40" y="176" fill="#f0f6fc" font-family="Segoe UI, Ubuntu, Helvetica, Arial, sans-serif" font-size="13">Blade</text>
+  <rect x="176" y="167" width="196" height="8" rx="4" fill="#21262d"/>
+  <rect x="176" y="167" width="5.29" height="8" rx="2.64" fill="#f7523f"/>
+  <text x="434" y="176" fill="#8b949e" font-family="Segoe UI, Ubuntu, Helvetica, Arial, sans-serif" font-size="12" text-anchor="end">2.7%</text>
+  </g>
+  <rect x="0.5" y="0.5" width="451" height="199" rx="8" fill="none" stroke="#30363d"/>
+</svg>
